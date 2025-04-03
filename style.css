@@ -15,8 +15,8 @@ body {
 }
 
 #inner {
-  width: 85%;
-  height: 75%;
+  width: 1500px;
+  height: 700px;
   /* background-color: red; */
   display: flex;
   flex-direction: row;
