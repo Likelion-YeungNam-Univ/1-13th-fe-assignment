@@ -1,47 +1,117 @@
 *{
-    background-color: black;
+    margin : 0;
+    padding : 0;
 }
 
+body{
+    background-color: black;
+    color: white;
+    padding : 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding : 0px;
+    margin : 120px 300px 0px 300px;
+    flex-direction: column;
+    background-color: cadetblue;
+}
 
 .left-container {
     display: flex;
     flex-direction: column;
-    justify-content: right;
-    align-items: center;
-    height: 100px;
+    justify-content: left;
+    align-items: left;
+    width : flex;
+    height: 800px;
+    background-color:black;
 }
 
-.box-container {
+.intro-container {
     display: flex;
-    gap : 10px;
-}
-
-.box-container > div{
-    background-color: white;
-    width: 100px;
-    height: 120px;
-    border : 1px solid orange;
-    border-radius : 20px;
+    justify-content: left;
     align-items: center;
+    text-align: left;
+    height: 200px;
+    width : 500px;
+    margin : 0px;
+    padding : 20px;
+    padding-bottom : 0px; 
 }
 
-#left-bottom{
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    height: 150px;
+    width : 500px;
+    margin : 0px;
+    padding : 20px;
+    padding-top : 0px;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    height: 200px;
+    width : 500px;
+    margin : 0px;
+    padding : 20px;
+    padding-top : 0px;
+}
+
+.textbox {
     display : flex;
     flex-direction : row;
     justify-content : center;
 }
 
-#box-txt {
-    background-color: white;
-    color : balck;
-    font-size : 18px;
-    font-weight : bold;
+#title {
+    margin-left : 5px;
+    font-size: 25px;
+    line-height:auto;
+    font-weight: bold;
+    line-height : 1.8;
 }
 
-#txt {
-    color : white;
-    font-size : 13px;
+#intro-txt {
+    font-size: 20px;
 }
+
+
+#box-txt{
+    color:black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#box-txt {
+    background-color: white;
+    color : black;
+    font-size : 30px;
+    font-weight : bold;
+    width: 170px;
+    height: 200px;
+    border : 1px solid orange;
+    border-radius : 20px;
+    align-content: center;
+    text-align: center;
+    margin : 7px;
+    justify-content: center;
+}
+
+
+
+
+
+
 
 #login{
     background-color: white;
