@@ -2,20 +2,45 @@
     background-color: black;
 }
 
-textbox{
-    background-color: white;
-    color : black
-    font-size : 13px;
-    border-radius : 5px;
-    border : 1px solid orange;
-    padding : 5px;
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    height: 100px;
 }
 
+.box-container {
+    display: flex;
+    gap : 10px;
+}
 
+.box-container > div{
+    background-color: white;
+    width: 100px;
+    height: 120px;
+    border : 1px solid orange;
+    border-radius : 20px;
+    align-items: center;
+}
+
+#left-bottom{
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+}
+
+#box-txt {
+    background-color: white;
+    color : balck;
+    font-size : 18px;
+    font-weight : bold;
+}
 
 #txt {
     color : white;
-    font-size = 13px;
+    font-size : 13px;
 }
 
 #login{
@@ -26,7 +51,7 @@ textbox{
 }
 
 #submit{
-    background-color: : orange;
+    background-color: orange ;
     color : white;
     border-radius: 40px;
     width : 90px;
