@@ -1,10 +1,10 @@
-.container{
+.container {
     display: flex;
     align-items: center;
     margin: 100px 0 40px 100px;
 }
 
-.text-box{
+.text-box {
     margin-left: 20px;
     font-size: 25px;
     line-height: 1.5;
@@ -12,7 +12,7 @@
     color: white;
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -20,4 +20,26 @@ body{
     color: white;
     font-size: 20px;
     margin-left: 100px;
-  }
+}
+
+.part {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.part-box {
+    width: 150px;
+    height: 180px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    box-shadow: 0 0 0 2px orange;
+}
