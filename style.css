@@ -6,17 +6,16 @@
 body{
     background-color: black;
     color: white;
-    padding : 20px;
+    padding : 0 20 20 20;
 }
 
 .main-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     padding : 0px;
     margin : 120px 300px 0px 300px;
-    flex-direction: column;
-    background-color: cadetblue;
+    flex-direction: row;
 }
 
 .left-container {
@@ -26,7 +25,15 @@ body{
     align-items: left;
     width : flex;
     height: 800px;
-    background-color:black;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : flex;
+    height: 800px;
 }
 
 .intro-container {
@@ -73,6 +80,18 @@ body{
     justify-content : center;
 }
 
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width : 500px;
+    margin-bottom : 200px;
+}
+
+
 #title {
     margin-left : 5px;
     font-size: 25px;
@@ -98,7 +117,7 @@ body{
     font-size : 30px;
     font-weight : bold;
     width: 170px;
-    height: 200px;
+    height: 180px;
     border : 1px solid orange;
     border-radius : 20px;
     align-content: center;
@@ -107,23 +126,48 @@ body{
     justify-content: center;
 }
 
+#login-head{
+    display : flex;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    padding : 0px;
+}
 
-
-
-
-
-
-#login{
+.input-container {
+    display: flex;
+    align-items: center;
     background-color: white;
     border-radius: 40px;
-    width : 200px;
-    height : 30px;
+    width: 275px;
+    height: 45px;
+    margin: 15px 150px;
+    padding: 0 15px;
+}
+
+.input-container input {
+    border: none;
+    font-size: 16px;
+}
+  
+.icon {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 #submit{
+    display : flex;
+    justify-content: center;
+    align-items: center;
     background-color: orange ;
     color : white;
+    border : none;
     border-radius: 40px;
-    width : 90px;
-    height : 25px;
+    width : 120px;
+    height : 30px;
 }
