@@ -5,10 +5,46 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 100px;
+	gap: 90px;
 }
 
 .container {
-	width: 800px;
-	height: 700px;
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 600px;
+}
+
+.logo-section {
+	display: flex;
+	align-items: center;
+}
+
+.logo-title {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.welcom-description > p {
+	color: white;
+	font-size: 26px;
+}
+
+.track-cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.track-card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 185px;
+	height: 220px;
+	background-color: white;
+	border: 2px solid burlywood;
+	border-radius: 40px;
+	font-size: 40px;
+	font-weight: bold;
 }
