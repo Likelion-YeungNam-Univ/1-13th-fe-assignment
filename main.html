@@ -4,10 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- 브라우저 기본 스타일 제거 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS 파일 연결 -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- 아이콘 사용을 위한 font-awesome 연결 -->
+    <script
+      src="https://kit.fontawesome.com/0d3bfe4d72.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    PR 테스트용입니다.
+    <div class="container" id="left-container">
+      <div class="title">
+        <img src="likelion.png" alt="멋사 로고" />
+        <p>영남대학교<br />멋쟁이사자처럼<br />13기</p>
+      </div>
+      <p>여러분을 진심으로 환영합니다!</p>
+      <p>
+        멋쟁이사자처럼은 '성장 의지를 가진 사람들'을 돕기 위해 존재합니다.
+        그리고 이들을 돕기 위한 가장 근본적이고 효과적인 방법은 교육이라고
+        생각합니다!
+      </p>
+      <div class="track-container">
+        <div>P&D</div>
+        <div>FE</div>
+        <div>BE</div>
+      </div>
+    </div>
+    <form class="container" id="right-container">
+      <div class="login-title">LOGIN</div>
+      <div class="input-container">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" name="username" placeholder="username" />
+      </div>
+      <div class="input-container">
+        <i class="fa-solid fa-lock"></i>
+        <input type="text" name="password" placeholder="password" />
+      </div>
+      <button>로그인</button>
+    </form>
   </body>
 </html>
-
-<!-- 자유로운 방식으로 구현하시면 되며, .github 폴더는 신경쓰지 않으셔도 됩니다. -->
