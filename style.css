@@ -63,10 +63,9 @@ body{
 
 .box-container{
     display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     width : 500px;
     margin : 0px;
@@ -74,10 +73,19 @@ body{
     padding-top : 0px;
 }
 
-.textbox {
-    display : flex;
-    flex-direction : row;
-    justify-content : center;
+.box-txt {
+    background-color: white;
+    color : black;
+    font-size : 30px;
+    font-weight : bold;
+    width: 170px;
+    height: 180px;
+    border : 1px solid orange;
+    border-radius : 20px;
+    align-content: center;
+    text-align: center;
+    margin : 7px;
+    justify-content: center;
 }
 
 .login-container {
@@ -141,28 +149,6 @@ body{
 
 #intro-txt {
     font-size: 20px;
-}
-
-
-#box-txt{
-    color:black;
-    font-size: 18px;
-    font-weight: bolder;
-}
-
-#box-txt {
-    background-color: white;
-    color : black;
-    font-size : 30px;
-    font-weight : bold;
-    width: 170px;
-    height: 180px;
-    border : 1px solid orange;
-    border-radius : 20px;
-    align-content: center;
-    text-align: center;
-    margin : 7px;
-    justify-content: center;
 }
   
 #icon {
