@@ -1,0 +1,83 @@
+h2 {
+    color: rgb(255, 255, 255);
+  }
+  
+.white {
+    color : #ffffff;
+    clear:both;
+}
+  
+img{
+    float:left;
+}
+
+.rounded {
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 193, 107);
+    line-height: 1rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align : center;
+    padding : 80px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box {
+    background: rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: oblique;
+    width: 300px;
+    color: #ffffff;
+}
+  
+.mini button {
+    background-color: #ff9500;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 2rem;
+    color: white;
+    width: 100px;
+}
+
+.main-layout {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.left-content {
+    width: 40%;
+}
+
+
+.icon {
+    position: relative;
+    width: 300px;
+    margin: 10px auto;
+}
+  
+.icon i {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    color: #888888;
+}
+  
+.icon input {
+    width: 80%;
+    padding: 10px 10px 10px 35px; 
+    border: 1px solid #888888;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    text-indent: 10px;
+}
+  
